@@ -37,7 +37,7 @@ public class ShoppingCartTest {
     }
 
     @Test
-    public void verifyAppleOffer() {
+    public void verifyAppleDeal() {
         //ASSIGN
         repeat(Constants.MAGIC_NUMBER_FIVE, () -> {
             cart.addProduct(new Apple(Constants.APPLE_PRODUCT_CODE, Product.Type.APPLE.name(), Constants.APPLE_PRODUCT_PRICE, new Deal(Constants.APPLE_PRODUCT_CODE, Constants.MAGIC_NUMBER_TWO)));
